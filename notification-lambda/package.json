@@ -1,0 +1,21 @@
+{
+  "name": "notification-lambda",
+  "version": "1.0.0",
+  "description": "This repository contains the code for the suspicious command notification",
+  "main": "app.js",
+  "repository": "https://github.com/Huzaifa-Asif/Linux-Audit-Logging-Alerts",
+  "author": "Huzaifa Asif <hello@huzaifa.io",
+  "license": "MIT",
+  "publishConfig": {
+    "@respond-io:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "axios": ">=0.21.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
